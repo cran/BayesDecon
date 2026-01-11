@@ -1,14 +1,14 @@
 Package: BayesDecon
 Type: Package
 Title: Density Deconvolution Using Bayesian Semiparametric Methods
-Version: 0.1.3
+Version: 0.1.4
 Authors@R: c(
     person("Blake", "Moya", email = "blakemoya@utexas.edu", role = c("aut")),
     person("Mainak", "Manna", email = "mainakmanna29@utexas.edu", role = c("cre", "aut")),
     person("Abhra", "Sarkar", email = "abhra.sarkar@utexas.edu", role = c("aut")),
     person("The University of Texas at Austin", role = c("cph", "fnd")))
 Maintainer: Mainak Manna <mainakmanna29@utexas.edu>
-Description: Estimates the density of a variable in a measurement error setup, potentially with an excess of zero values. For more details see Sarkar (2022) <doi:10.1080/10618600.2022.2060239>.
+Description: Estimates the density of a variable in a measurement error setup, potentially with an excess of zero values. For more details see Sarkar (2022) <doi:10.1080/01621459.2020.1782220>.
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
@@ -19,10 +19,10 @@ Suggests: ggplot2, gridExtra, parallel, foreach, doParallel,
         RColorBrewer
 Depends: R (>= 4.1.0)
 NeedsCompilation: yes
-Packaged: 2026-01-07 16:26:49 UTC; mm227334
+Packaged: 2026-01-10 02:16:16 UTC; mm227334
 Author: Blake Moya [aut],
   Mainak Manna [cre, aut],
   Abhra Sarkar [aut],
   The University of Texas at Austin [cph, fnd]
 Repository: CRAN
-Date/Publication: 2026-01-09 15:00:12 UTC
+Date/Publication: 2026-01-11 00:02:09 UTC
